@@ -1,0 +1,18 @@
+ .sticky-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Adjust the z-index as needed */
+  } 
+  
+/* Default text color */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+/* Text color when navbar is sticky */
+.sticky-navbar .navbar-nav .nav-link {
+  color: black;
+  font-weight: 800;
+}
